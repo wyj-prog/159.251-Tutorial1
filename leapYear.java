@@ -9,7 +9,7 @@ public class leapYear{
                 int year = 2004;
                
                 //if year is divisible by 4, it is a leap year
-               
+               // Add a new line
                 if((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
                         System.out.println("Year " + year + " is a leap year");
                 else
